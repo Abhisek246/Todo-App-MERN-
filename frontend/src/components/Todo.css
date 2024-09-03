@@ -1,0 +1,31 @@
+.todo{
+    margin-top: 1rem;
+    border: 1px solid #caf0f8;
+    color: #0077b6;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 70%;
+
+&:hover{
+    background-color: #ade8f4;
+    border: 2px solid #fff;
+    box-shadow: 0px 4px 8px rgba(27, 165, 219, 0.6);
+    transition: transform 0.5s ease;
+    transform: scale(1.02);
+}
+}
+
+.icons{
+    display: flex;
+    gap: 1rem;
+}
+
+.icon{
+    cursor: pointer;
+    font-size: 20px;
+}
+
